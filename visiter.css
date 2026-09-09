@@ -1,0 +1,74 @@
+
+body{
+    background-color: #111111;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+ z-index: 1030;
+    background-color: #111111 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+   
+
+/* Page bottom padding so content isn't covered by fixed footer */
+body{
+    padding-bottom: 50px;
+}
+/* Smooth fade styling for time updates */
+
+#ticker-date,#ticker-time,#ticker-location {
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+.about-us {
+    width: 100%;
+    overflow: hidden;
+}
+.about-image {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+}
+.about-ush2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-ush3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-usp1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media  (max-width: 768px) {
+    .about-us h2 {
+        font-size: 34px;
+    }
+    .about-us h3 {
+        font-size:  24px;
+    }
+    .about-us p {
+        font-size: 16px;
+    }
+}
+ @media  (max-width: 576px) {
+    .about-us {
+        text-align: center
+    }
+     .about-us h2 {
+        font-size: 30px;
+    }
+    .about-us h3 {
+        font-size:  22px;
+    }
+    .about-us p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .about-image {
+        max-width: 300px;
+    }
+}   
